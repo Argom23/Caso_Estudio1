@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "C:/Users/cesar/Ufacturas/Ambiente Web Cliente Servidor/CasoEstudio/.git/"
+    "url": "https://github.com/Argom23/Caso_Estudio1.git"
   },
   "keywords": [
     "HTML",
@@ -18,5 +18,8 @@
     "Node.js"
   ],
   "author": "Cesar Arce",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }

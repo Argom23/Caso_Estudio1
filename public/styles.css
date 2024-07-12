@@ -1,0 +1,99 @@
+/* Estilo general -- No soy muy bueno diseñando entonces solicité ayuda de IA 😛*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e3f2fd; /* Fondo celeste claro */
+}
+
+header {
+    background-color: #3f51b5; /* Azul oscuro */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header input[type="text"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+    border: 1px solid #5c6bc0; /* Azul intermedio */
+    border-radius: 5px;
+}
+
+header button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8e24aa; /* Morado intermedio */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.note-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #e8eaf6; /* Azul claro */
+}
+
+.note-card h2 {
+    margin-top: 0;
+    color: #3949ab; /* Azul oscuro */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#note-form button[type="submit"] {
+    background-color: #7e57c2; /* Morado intermedio */
+    color: white;
+}
+
+#note-form button[type="button"] {
+    background-color: #42a5f5; /* Azul intermedio */
+    color: white;
+}
+
+#delete-button {
+    background-color: #d32f2f; /* Rojo */
+    color: white;
+}
