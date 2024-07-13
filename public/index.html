@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body onload="displayNotes()">
     <header class="text-center p-3 main-header text-white">
         <h1>Notas</h1>
         <button class="btn btn-danger mt-2" onclick="window.location.href='edit.html'">Crear Nueva Nota</button>
         <div class="box-div">
-            <input type="text" class="form-control mt-2" placeholder="Buscar por título o etiqueta" id="search">
+            <input type="text" class="form-control mt-2" placeholder="Buscar por título o etiqueta" id="search" oninput="filterNotes()">
         </div>
     </header>
     <main class="container mt-4">
-        <div class="row row-cols-1 row-cols-md-3 g-4" id="notes-grid">
-
+        <div id="notes-container" class="row row-cols-1 row-cols-md-3 g-4">
+            
+        </div>
+        <div id="no-notes-message" class="alert alert-info d-none" role="alert">
+            No hay notas disponibles.
         </div>
     </main>
+    <hr>
+</body>
+</html>
+
+    
 </body>
 </html>

@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Argom23/Caso_Estudio1.git"
+    "url": "git+https://github.com/Argom23/Caso_Estudio1.git"
   },
   "keywords": [
     "HTML",
@@ -20,6 +20,12 @@
   "author": "Cesar Arce",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
+  },
+  "bugs": {
+    "url": "https://github.com/Argom23/Caso_Estudio1/issues"
+  },
+  "homepage": "https://github.com/Argom23/Caso_Estudio1#readme"
 }
