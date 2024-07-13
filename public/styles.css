@@ -34,12 +34,15 @@ header button {
     cursor: pointer;
 }
 
-.container {
-    height: 200px;
+.box-div{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+
+.main-header{
+    background-color: #CA48E0;
+}
   
 
 main {
